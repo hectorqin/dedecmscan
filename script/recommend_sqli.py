@@ -27,7 +27,7 @@ class recomsqli:
             temp = userpass.split('|')
             username = temp[1]
             passw = temp[2][2:-1]
-            cprint("dede recommend.php SQL username is: " + username + "password is :" + passw,"red")
+            cprint("target maybe have dede recommend.php SQL username is: " + username + "password is :" + passw,"red")
         except:
             return False
 
