@@ -21,6 +21,6 @@ class writebook_getshell:
             r = requests.get(url=vulnurl,headers=headers)
             m = requests.get(url=url+'data/textdata/1/bk1.php',headers=headers)
             if m.status_code == 200 and "phpinfo" in r.content:
-                cprint("target may be writebook getshell:" + vulnurl,"red")
+                cprint("target may be hava writebook.php getshell:" + vulnurl,"red")
         except:
             return False
