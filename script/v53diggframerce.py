@@ -20,6 +20,6 @@ class dig_frame_rce:
         try:
             r = requests.get(url=vulnurl,headers=headers)
             if r.status_code == 200 and "phpinfo" in r.content:
-                cprint("target may be digg_frame.php  rce:" + vulnurl,"red")
+                cprint("target may be have digg_frame.php  rce:" + vulnurl,"red")
         except:
             return False
