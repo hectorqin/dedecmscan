@@ -21,7 +21,7 @@ def main():
 
     '''
     author = '''
-                                                  author by : lengyi
+                                                 
     '''
     cprint(title, "blue")
     cprint(author, "green")
